@@ -1,0 +1,125 @@
+body {
+  background: url(https://cdn.pixabay.com/photo/2017/03/17/18/03/bokeh-2152298_960_720.jpg) ;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+
+  .poruke {
+    padding: 10px;
+    width: 75%;
+  }
+  .poruke p {
+    margin: 0 0 5px 0;
+    
+  }
+  .unos {
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 520px;
+    padding: 15px;
+    box-shadow: 0 0 10px #c4c2c2, 0 0 3px;
+  }
+  .button{
+    background-color: rgba(240, 16, 16, 0.55);
+    padding: 5px;
+    float: right;
+    color:white;
+    border-radius: 5px;
+  }
+  .button:hover{
+    background-color: #6C96E6;
+    color:white;
+    border-radius: 5px;
+  }
+
+
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding-top: 30px;
+    color:#33333391;
+  }
+  
+
+ .text{
+  color: #fff;
+ }
+  
+  .chat {
+    width: 500px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    min-height: 355px;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0 0 10px #c4c2c2, 0 0 3px;
+    background-color: white;
+ 
+  }
+  .poruka-autora{
+    float: right;
+    padding-top: 20px;
+    color: #fff;
+    font-weight: normal;
+    
+  }
+  
+  
+  .tekst-container {
+    margin-top: 5px;
+    display: inline-block;
+    width: calc(100% - 50px); 
+  }
+  
+  
+  .pozadina {
+    background-color: #0b7ae2;
+    color:#fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+ 
+ 
+  
+  .autor {
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 10px;
+    color:#33333391;
+  }
+  
+  
+  .tekst {
+    color: #fff;
+  }
+  
+  .poruka.blue {
+    background-color: #2196F3;
+    color: #fff;
+  }
+
+
+  .autor-main {
+
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+    background-color: rgba(240, 16, 16, 0.55);
+  }
+
+
+
+
